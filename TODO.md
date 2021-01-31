@@ -26,8 +26,8 @@ Start up -
 - YUP - Created Input for Employee Salary
 - YUP - Created Delete Button
 - YUP - Created Add Button
-
-- Record Employee
+- YESThe application should have an input form that collects _employee first name, last name, ID number, job title, annual salary_.
+- add salary
 - Salary Holder
 - Add Salary
 - Stores Salary
