@@ -6,24 +6,28 @@
     <link rel="stylesheet" href="style.css" />
     <script src="jquery.js"></script>
     <script src="app.js"></script>
+    <center>
     <title>Salary Calculator</title>
   </head>
   <body>
     <h1>Salary Calculator</h1>
 
-    <form>
+    <form id ="holdFormInformation">
       <!-- Employee Information Fields  -->
+      <div id="storage">
       <input type="text" placeholder="Employee First Name" id="fnameInput" />
       <input type="text" placeholder="Employee Last Name" id="lnameInput" />
       <input type="text" placeholder="Job Title" id="jobTitle" />
       <input type="text" placeholder="Employee ID" id="employeeID" />
       <input type="number" placeholder="Salary" id="salaryInput" />
-      <br />
+      <br /> 
+      <!-- replace the br at a later time. -->
       <!--- Buttons -->
       <input type="submit" value="Submit" id="addItemBtn" />
 
       <input type="submit" value="Delete" id="delItemBtn" />
-      <center>
+      </div>
+      
         <table>
           <thead>
             <tr>
@@ -34,7 +38,7 @@
               <th scope="col">Salary</th>
             </tr>
           </thead>
-          <tbody id="employee-information">
+          <tbody id>
             
             <td>Peter</td>
             <td>Nguyen</td>
