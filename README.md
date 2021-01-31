@@ -9,3 +9,10 @@ Your project description goes here. What problem did you solve? How did you solv
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
 
 # Usage
+
+# Built with
+
+- JS
+- HTML
+- jQuery
+- CSS
