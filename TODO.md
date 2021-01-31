@@ -4,10 +4,10 @@ Form required
 
 Start up -
 
-- create HTML
-- Source CSS
-- JS
-- Jquery
+- create HTML - YUP
+- Source CSS - YUP
+- JS - YUP
+- Jquery - YUP
 
 - Record Employee
 - Add Salaries
