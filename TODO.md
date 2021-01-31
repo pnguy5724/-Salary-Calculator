@@ -19,3 +19,16 @@ Start up -
 - add red background
 - clear delete button
 - clear button, must remove an employee frm DOM
+
+# Form -
+
+- YUP - Created Input for Employee Name
+- YUP - Created Input for Employee Salary
+- YUP - Created Delete Button
+- YUP - Created Add Button
+
+- Record Employee
+- Salary Holder
+- Add Salary
+- Stores Salary
+- Clears Information
