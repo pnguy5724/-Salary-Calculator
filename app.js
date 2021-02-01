@@ -11,24 +11,29 @@ let employee = '';
 $(document).on('click', '#addItemBtn', addItemBtn);
 $(document).on('click', '#delItemBtn', delItemBtn);
 
-function insertEmployeeData(event) {
+function addItemBtn(event) {
   event.preventDefault();
   // https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
   // don't let the form resubmit the page.
-  console.log('logging employee data ');
-
-  let firstName = $('#fnameInput').val();
-  let lastName = $('#lnameInput').val();
-  let jobTitle = $('#jobTitle').val();
-  let employeeID = $('#employeeID').val();
-  let salary = $('#salaryInput').val();
-
-  //Grab employee data from the DOM.
+  console.log('logging employee data..');
 }
+let firstName = $('#fnameInput').val();
+let lastName = $('#lnameInput').val();
+let jobTitle = $('#jobTitle').val();
+let employeeID = $('#employeeID').val();
+let salary = $('#salaryInput').val();
+
+//Grab employee data from the DOM.
+
 let storage = document.querySelector('#fnameInput');
 
 employeeList.push(employee);
 console.log('EMPLOYEE LIST logged');
+
+function delItemBtn(event) {
+  event.preventDefault();
+  console.log('delete employee data..');
+}
 // pushing employee data to the DOM
 
 // function deleteEmployee()
