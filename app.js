@@ -17,6 +17,8 @@ function addItemBtn(event) {
   // don't let the form resubmit the page.
   console.log('logging employee data..');
 }
+//verifying button press sends a message.
+
 let firstName = $('#fnameInput').val();
 let lastName = $('#lnameInput').val();
 let jobTitle = $('#jobTitle').val();
@@ -25,16 +27,19 @@ let salary = $('#salaryInput').val();
 
 //Grab employee data from the DOM.
 
-let storage = document.querySelector('#fnameInput');
-
+// $('#tableStorage').append(
+//  <td class=
+// );
+// $('#storage').empty();
+// $('#storage').append(`$${}`)
 employeeList.push(employee);
 console.log('EMPLOYEE LIST logged');
-
+// pushing employee data to the DOM
 function delItemBtn(event) {
   event.preventDefault();
   console.log('delete employee data..');
 }
-// pushing employee data to the DOM
+// verifying button press deploys message.
 
 // function deleteEmployee()
 
